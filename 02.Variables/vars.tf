@@ -5,7 +5,7 @@ output "sample" {
   value = var.sample
 }
 output "sample2" {
-  value = "${var.sample}"
+  value = "${var.sample}"-single
 }
 
 variable "file122" {}
@@ -23,8 +23,14 @@ variable "number" {
 variable "boolean" {
   deafult = True
 }
-output "data-types" {
-  value = "String=${var.string} , Number=${var.number} , Boolean=${var.boolean}"
+output "string" {
+  value = "String= ${var.string}"
+}
+output "number" {
+  value = "Number= ${var.number}"
+}
+output "boolean" {
+  value = "Boolean= ${var.boolean}"
 }
 
 
