@@ -39,7 +39,7 @@ output "boolean" {
 
 variable "FRIUTS" {}
 output "FRIUTS" {
-  value = "FRIUTS"
+  value = var.FRIUTS
 }
 
 
