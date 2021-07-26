@@ -1,6 +1,6 @@
 variable "sample" {
-  default = Terraform
+  default = "Terraform"
 }
 output "sample" {
-  value = "var.sample"
+  value = var.sample
 }
