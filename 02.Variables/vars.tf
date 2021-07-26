@@ -5,10 +5,25 @@ output "sample" {
   value = var.sample
 }
 output "sample2" {
-  value = var.sample
+  value = "${var.sample}"
 }
 
-variable "default" {}
+variable "file122" {}
 output "default" {
-  value = var.default
+  value = var.file122
 }
+
+#variable data-types
+variable "string"{
+  default = "Movies"
+}
+variable "number" {
+  deault = 100
+}
+variable "boolean" {
+  deafult = True
+}
+Output "data-types" {
+  value = "String=${var.string}, Number=${var.number}, Boolean=${var.boolean}"
+}
+
