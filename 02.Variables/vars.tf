@@ -21,7 +21,7 @@ variable "number" {
   default = 100
 }
 variable "boolean" {
-  default = True
+  default = false
 }
 output "string" {
   value = "String= ${var.string}"
