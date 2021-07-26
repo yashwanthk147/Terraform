@@ -5,7 +5,7 @@ output "sample" {
   value = var.sample
 }
 output "sample2" {
-  value = "${var.sample}"-single
+  value = "${var.sample}"
 }
 
 variable "file122" {}
