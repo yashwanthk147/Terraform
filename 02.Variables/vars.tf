@@ -59,7 +59,7 @@ output "file65-third" {
   value = "var.file65[2"
 }
 output "file78" {
-  value = "films = ${var.file78[film]}"
+  value = "films = ${var.file78[0]}"
 }
 
 
