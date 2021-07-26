@@ -24,7 +24,7 @@ variable "boolean" {
   deafult = True
 }
 output "data-types" {
-  value = "String=${var.string}, Number=${var.number}, Boolean=${var.boolean}"
+  value = "String=${var.string} , Number=${var.number} , Boolean=${var.boolean}"
 }
 
 
