@@ -18,10 +18,10 @@ variable "string"{
   default = "Movies"
 }
 variable "number" {
-  deault = 100
+  default = 100
 }
 variable "boolean" {
-  deafult = True
+  default = True
 }
 output "string" {
   value = "String= ${var.string}"
