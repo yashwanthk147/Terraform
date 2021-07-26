@@ -1,0 +1,1 @@
+FRIUTS=["pinapple","jackfruit"]
