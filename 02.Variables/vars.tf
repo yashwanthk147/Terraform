@@ -47,5 +47,12 @@ variable "root300" {
   default = "angelina jolie"
 }
 output "sample" {
-  value = "var.root300"
+  value = "var.sample"
+}
+
+variable "enemy5656" {
+  default = "nayanthara"
+}
+output "sample4r45" {
+  value = "$(var.sample4r45)-Fraom String Terraform"
 }
