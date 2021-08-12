@@ -53,7 +53,7 @@ output "root300" {
 variable "enemy5656" {
   default = "nayanthara"
 }
-output "enemy5656" {
+output "enemy56565" {
   value = "$(var.enemy5656)-From String Terraform"
 }
 
@@ -70,9 +70,9 @@ variable "number" {
   default = 100
 }
 variable "boolean" {
-  default = True
+  default = false
 }
 output "data-types" {
-  value = "String=${var.string}, Number=${var.number}, Boolean=${var.boolean}"
+  value = "String = ${var.string}, Number = ${var.number}, Boolean = ${var.boolean}"
 }
 
