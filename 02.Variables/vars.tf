@@ -37,9 +37,15 @@
 
 #tfvars/*
 
-variable "FRIUTS" {}
-output "FRIUTS" {
-  value = var.FRIUTS
+//variable "FRIUTS" {}
+//output "FRIUTS" {
+//  value = var.FRIUTS
+//}
+
+
+variable "root300" {
+  default = "angelina jolie"
 }
-
-
+output "sample" {
+  value = "var.root300"
+}
