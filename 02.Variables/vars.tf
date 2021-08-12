@@ -42,6 +42,11 @@ output "FRIUTS" {
   value = var.FRIUTS
 }
 
+variable "CITY" {}
+output "CITY" {
+  value = var.CITY
+}
+
 
 variable "root300" {
   default = "angelina jolie"
