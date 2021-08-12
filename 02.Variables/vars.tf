@@ -53,6 +53,13 @@ output "root300" {
 variable "enemy5656" {
   default = "nayanthara"
 }
-output "sample" {
+output "enemy5656" {
   value = "$(var.enemy5656)-From String Terraform"
 }
+
+variable "enemy5659" {
+}
+output "enemy5659" {
+  value = var.enemy5659
+}
+
