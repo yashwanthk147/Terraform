@@ -37,10 +37,10 @@
 
 #tfvars/*
 
-//variable "FRIUTS" {}
-//output "FRIUTS" {
-//  value = var.FRIUTS
-//}
+variable "FRIUTS" {}
+output "FRIUTS" {
+  value = var.FRIUTS
+}
 
 
 variable "root300" {
