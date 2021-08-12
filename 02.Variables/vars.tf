@@ -42,10 +42,10 @@ output "FRIUTS" {
   value = var.FRIUTS
 }
 
-variable "CITY" {}
-output "CITY" {
-  value = var.CITY
-}
+//variable "CITY" {}
+//output "CITY" {
+//  value = var.CITY
+//}
 
 variable "season" {}
 output "season" {
