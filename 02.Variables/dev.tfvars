@@ -1,1 +1,1 @@
-FRIUTS=["pinapple","jackfruit"]
+#FRIUTS=["pinapple","jackfruit"]
