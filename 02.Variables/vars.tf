@@ -47,9 +47,9 @@ output "FRIUTS" {
 //  value = var.CITY
 //}
 
-variable "season" {}
-output "season" {
-  value = var.season
+variable "SEASON" {}
+output "SEASON" {
+  value = var.SEASON
 }
 
 
