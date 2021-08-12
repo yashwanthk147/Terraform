@@ -70,7 +70,7 @@ variable "number" {
   default = 100
 }
 variable "boolean" {
-  default = false
+  default = True
 }
 output "data-types" {
   value = "String = ${var.string}, Number = ${var.number}, Boolean = ${var.boolean}"
