@@ -54,5 +54,5 @@ variable "enemy5656" {
   default = "nayanthara"
 }
 output "enemy5656" {
-  value = "$(var.sample4r45)-Fraom String Terraform"
+  value = "$(var.enemy5656)-From String Terraform"
 }
