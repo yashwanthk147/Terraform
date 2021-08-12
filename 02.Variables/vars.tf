@@ -63,3 +63,16 @@ output "enemy5659" {
   value = var.enemy5659
 }
 
+variable "string" {
+  default = "hEllo"
+}
+variable "number" {
+  default = 100
+}
+variable "boolean" {
+  default = True
+}
+output "data-types" {
+  value = "string=${var.string}, number=${var.number}, boolean=${var.boolean}"
+}
+
