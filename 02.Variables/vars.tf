@@ -47,6 +47,11 @@ output "CITY" {
   value = var.CITY
 }
 
+variable "season" {}
+output "season" {
+  value = var.season
+}
+
 
 variable "root300" {
   default = "angelina jolie"
