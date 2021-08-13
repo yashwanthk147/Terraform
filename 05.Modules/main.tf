@@ -3,7 +3,7 @@ module "sg" {
 }
 
 module "ec2" {
-  depends_on       = [module.sg]
+  #depends_on       = [module.sg]
   source           = "./ec2"
   SG_ID            = module.sg.SG_ID
 }
