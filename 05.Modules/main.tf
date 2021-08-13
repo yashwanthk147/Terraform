@@ -3,8 +3,9 @@ module "sg" {
 }
 
 module "ec2" {
+  depends_on       = [module.sg]
   source           = "./ec2"
-  SG-ID            = module.sg.SG-ID
+  SG_ID            = module.sg.SG_ID
 }
 
 provider "aws"{
@@ -12,5 +13,5 @@ provider "aws"{
 }
 
 output "PRIVATE_IP" {
-  value = module.ec2.PRIVATE_IP
+  value            = module.ec2.PRIVATE_IP
 }

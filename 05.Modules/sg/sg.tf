@@ -24,6 +24,6 @@ resource "aws_security_group" "allow_ssh" {
   }
 }
 
-output "SG-ID" {
+output "SG_ID" {
   value                    = "aws_security_group.allow_ssh.id"
 }
