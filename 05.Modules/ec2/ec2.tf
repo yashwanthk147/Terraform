@@ -14,3 +14,5 @@ variable "SG_ID" {}
 output "PRIVATE_IP" {
   value = aws_instance.sample.*.private_ip
 }
+
+#if count comes comes into picture then attributes should be referred with *
