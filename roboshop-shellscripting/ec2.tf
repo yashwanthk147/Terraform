@@ -11,7 +11,7 @@ resource "aws_instance" "instance" {
 
 resource "aws_route53_record" "records" {
   count                 = local.LENGTH
-  name                  = element("var.COMPONENTS", count.index )
+  name                  = element(var.COMPONENTS, count.index )
   type                  = "A"
   zone_id               = "Z0503812D1634TD1MLB0"
   ttl                   = 300
