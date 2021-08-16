@@ -32,7 +32,7 @@ resource "null_resource" "run-shell-scripting" {
       password        = "DevOps321"
 
     }
-  }
+
     inline           = [
       "cd/home/centos",
       "git clone https://github.com/yashwanthk147/Shell-Scripting.git",
@@ -40,6 +40,9 @@ resource "null_resource" "run-shell-scripting" {
       "sudo make ${element(var.COMPONENTS, count.index)}"
     ]
   }
+}
+
+
 
 locals {
   LENGTH             = length(var.COMPONENTS)
