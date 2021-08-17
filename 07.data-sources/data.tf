@@ -1,6 +1,6 @@
 data "aws_ami" "example" {
   most_recent      = true
-  name_regex       = "Centos-7"
+  name_regex       = "^Centos-7"
   owners           = ["973714476881"]
 
 }
