@@ -7,7 +7,7 @@ pipeline {
         sh 'echo Hello'
       }
     }
-    satge('Two') {
+    stage('Two') {
       steps {
         sh 'echo yashwanth'
       }
