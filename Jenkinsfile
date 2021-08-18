@@ -12,7 +12,7 @@ pipeline {
       steps {
         sh '''
           cd roboshop-shellscripting
-          terraform apply -auto-approve
+          terraform destroy -auto-approve
         '''
       }
     }
