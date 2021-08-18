@@ -2,14 +2,18 @@ pipeline {
   agent any
 
   stages {
-    stage('one') {
+    stage('Terraform INIT') {
       steps {
-        sh 'echo Hello'
+        sh 'cd roboshop-shellscripting ; terraform init
       }
     }
-    stage('Two') {
+
+    stage('Terraform Destroy') {
       steps {
-        sh 'echo yashwanth'
+        sh '''
+          cd roboshop-shellscripting
+          terraform apply -auto-approve
+        '''
       }
     }
 
