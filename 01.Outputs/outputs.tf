@@ -5,3 +5,7 @@ output "out1" {
 output "sample" {
   value = "terraform update"
 }
+
+output "sample" {
+  value = "terraform update"
+}
